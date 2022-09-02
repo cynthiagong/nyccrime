@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&family=Poppins:wght@100;400;700&family=Syne+Mono&display=swap');
+
+body,html {
+	margin:0;
+	height:100%;
+	width:100%;
+}
+
+#map {
+	height: 100%;
+}
+
+body {
+	font-family: "Montserrat";
+	display: grid;
+	grid-template-rows: 80px 40px 5fr 0.2fr;
+	grid-template-areas: 
+	"header header"
+	"topnav topnav"
+    "content content"
+	"footer footer";
+}
+
+.header {
+	grid-area: header;
+	background-color:#0f0e17;
+	color: white;
+	font-family: 'Syne Mono', monospace;
+	font-size: 2em;
+	font-weight: bolder;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+.headertext{
+	padding: 10px 0;
+}
+
+.content {
+	grid-area: content;
+	background-color:#0f0e17;
+	padding: 25px;
+	color: white;
+	font-family: "Montserrat";
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.footer {
+	grid-area: footer;
+	font-family: "Poppins";
+	padding: 10px;
+	color: white;
+	background-color:#0f0e17;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	grid-area: topnav;
+	background-color: #094067;
+	overflow: hidden;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	font-family: "Montserrat";
+	padding: 10px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all 0.5s ease-in-out;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+	font-size:105%;
+	vertical-align: middle;
+	padding: 10px 16px;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+	background-color: #04AA6D;
+	color: white;
+	font-weight: bold;
+}
+  
+.img {
+	max-width: 50%;
+	height: auto;
+}
+
+.styled {
+	padding: 20px;
+	background:#094067;
+	color: white;
+	font: "Poppins";
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+.styled:hover {
+	background: #90b4ce;
+	color: white;
+	font-size: 105%;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-nav{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.caption{
+	background: white;
+	color: #0f0e17;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+}
+
+.caption:hover{
+	font-size: 105%;
+	padding: 25px;
+	transition: all 0.5s ease-in-out;
+}

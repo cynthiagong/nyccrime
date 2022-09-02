@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brooklyn</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/pages.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="js/papaparse.min.js"></script>
+	
+	<!-- font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
+
+	<!-- classy brew -->
+	<script src="js/classybrew.js"></script>
+
+	<!-- apex charts -->
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+</head>
+<body>
+	<div class="header">
+		<div class="headertext"> 
+			New York Arrests [June 2020]
+		  <img src="pictures/logo.png" style="float: right;" width=80 title="Avengers of Data"/>
+		</div>
+		</div>
+	<div class="topnav">
+		<a href="index.html">MAP</a>
+		<a href="about.html">ABOUT</a>
+        <a href="findings.html">FINDINGS</a>
+		<a href="https://drive.google.com/file/d/1fIpz4T3fWcvMws1uhxB-BnvuJQr2s_o6/view?usp=sharing" target="_blank">REFERENCES</a>
+	</div>
+    <div class="content">
+        <h2>Brooklyn Analysis</h2>
+        <img src="charts/brooklynpiechart.png" alt="Brooklyn Arrest Breakdown" class="center">
+        <br>
+        <br>
+        <div class="caption">
+            In Brooklyn, Black individuals make up the largest proportion of the arrested population at 57%. Hispanic individuals make up 24% of the arrested population, while White, Asian, and Other comprise the remaining 15%. 
+        </div>
+        <img src="charts/brooklyncomparison.png" alt="Brooklyn Comparison" class="center">
+        <div class="caption">
+			The chart above compares each demographic group's overall proportion in the composition of the borough with the proportion of arrests on the demographic group within the borough. In Brooklyn, both Hispanic and Black individuals are arrested at a disproportionate rate when compared to their total population count. The Black demographic group makes up 30% of the population in Brooklyn, but 58% of the total arrests. The Hispanic demographic group makes up 19% of the Brooklyn population, but 24% of the total arrests. Meanwhile, White, Asian, and Other groups make up a smaller proportion of the arrested population when compared to their overall population makeup.
+        </div>
+        <img src="charts/brooklynyears.png" alt="Brooklyn Comparison by Years" class="center">
+        <div class="caption">
+			The arrest percentage for different demographic groups did not experience drastic changes in Brooklyn between June 2019 and June 2020. 
+        </div>
+    </div>
+</body>
+</html>

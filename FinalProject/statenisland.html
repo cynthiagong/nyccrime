@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Staten Island</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/pages.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="js/papaparse.min.js"></script>
+	
+	<!-- font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
+
+	<!-- classy brew -->
+	<script src="js/classybrew.js"></script>
+
+	<!-- apex charts -->
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+</head>
+<body>
+	<div class="header">
+		<div class="headertext"> 
+			New York Arrests [June 2020]
+		  <img src="pictures/logo.png" style="float: right;" width=80 title="Avengers of Data"/>
+		</div>
+		</div>
+	<div class="topnav">
+		<a href="index.html">MAP</a>
+		<a href="about.html">ABOUT</a>
+        <a href="findings.html">FINDINGS</a>
+		<a href="https://drive.google.com/file/d/1fIpz4T3fWcvMws1uhxB-BnvuJQr2s_o6/view?usp=sharing" target="_blank">REFERENCES</a>
+	</div>
+	<div class="content">
+        <h2>Staten Island Analysis</h2>
+        <img src="charts/statenislandpiechart.png" alt="Staten Island Arrest Breakdown" class="center">
+        <br>
+        <br>
+        <div class="caption">
+			Staten Island's arrest breakdown differs from the other boroughs. The White demographic group comprises the largest proportion of arrests at 39%, while Black and Hispanic groups fall behind at 30% and 26% respectively. 
+        </div>
+        <img src="charts/statenislandcomparison.png" alt="Staten Island Comparison" class="center">
+        <div class="caption">
+			The chart above compares each demographic group's overall proportion in the composition of the borough with the proportion of arrests on the demographic group within the borough. In Staten Island, Black and Hispanic demographic groups are disporportionately arrested when compared to their overall population proportion. While Black individuals only make up 9% of the overall population, they are 30% of the arrests. Hispanic individuals are just 19% of the total population, but 26% of the total arrests. 
+        </div>
+        <img src="charts/statenislandyears.png" alt="Staten Island Comparison by Years" class="center">
+        <div class="caption">
+			There were minimal changes in the arrest proportion across demographic groups from June 2019 to June 2020. 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manhattan</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/pages.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="js/papaparse.min.js"></script>
+	
+	<!-- font -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
+
+	<!-- classy brew -->
+	<script src="js/classybrew.js"></script>
+
+	<!-- apex charts -->
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+</head>
+<body>
+	<div class="header">
+		<div class="headertext"> 
+			New York Arrests [June 2020]
+		  <img src="pictures/logo.png" style="float: right;" width=80 title="Avengers of Data"/>
+		</div>
+		</div>
+	<div class="topnav">
+		<a href="index.html">MAP</a>
+		<a href="about.html">ABOUT</a>
+        <a href="findings.html">FINDINGS</a>
+		<a href="https://drive.google.com/file/d/1fIpz4T3fWcvMws1uhxB-BnvuJQr2s_o6/view?usp=sharing" target="_blank">REFERENCES</a>
+	  </div>
+    <div class="content">
+        <h2>Manhattan Analysis</h2>
+        <img src="charts/manhattanpiechart.png" alt="Manhattan Arrest Breakdown" class="center">
+        <br>
+        <br>
+        <div class="caption">
+			The Black demographic group comprised the largest proportion of arrests in Manhattan during June 2020. 57% of arrests were of Black individuals. The Hispanic demographic group has the 2nd highest proportion of arrests at 30%. White, Asian, and Other make up the remaining total of 13%. 
+        </div>
+        <img src="charts/manhattancomparison.png" alt="Manhattan Comparison" class="center">
+        <div class="caption">
+			The chart above compares each demographic group's overall proportion in the composition of the borough with the proportion of arrests on the demographic group within the borough. In Manhattan, the most drastic difference between the two bars occurs in both the White and Black demographic groups. The arrested population consist of a significantly lower proportion of white indiviuals when compared to the percentage of white individuals living in Manhattan. Only 10% of arrested individuals are White, while 47% of the overall Manhattan population is White. On the flip side, Black individuals only make up 13% of the Manhattan population, but 57% of the arrested population. 
+        </div>
+        <img src="charts/manhattanyears.png" alt="Manhattan Comparison by Years" class="center">
+        <div class="caption">
+			The arrest proportion for different demographic groups experienced significant changes in Manhattan from June 2019 to June 2020. Asian, Hispanic, and White demographic groups all saw a decreased proportion of arrests, while the Black demographic group's proportion of the arrested population jumped from 48% to 57%.
+        </div>
+    </div>
+</body>
+</html>
